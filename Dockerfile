@@ -10,6 +10,7 @@ RUN npm install --production
 COPY .env.example /starter/.env.example
 COPY . /starter
 
+
 CMD ["npm","start"]
 
 EXPOSE 8080
